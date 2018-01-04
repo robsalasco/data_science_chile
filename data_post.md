@@ -14,3 +14,4 @@
 | UCH        | Diplomado | Diplomado Ciencia e Ingenieria de Datos                | Data Science          | https://www.dcc.uchile.cl/datos                                                                                   |
 | UDD        | Doctorado | Doctorado en Ciencias de la Complejidad Social         | Complex Systems       | http://dccs.udd.cl/es/                                                                                            |
 | UDD        | Magister  | Magister en Data Science                               | Data Science          | https://datascience.udd.cl                                                                                        |
+| UAI        | Diplomado | Diplomado en Inteligencia Artificial                   | AI                    | http://www.uai.cl/postgrados-y-diplomas/diploma-en-inteligencia-colectiva |
