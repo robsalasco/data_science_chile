@@ -1,13 +1,13 @@
-university,name,category
-UAI,Diplomado Big Data para Políticas Públicas ,Data Science
-UC,Magíster en Procesamiento y Gestión de la Información,Data Science
-UC,Diplomado Big Data,Data Science
-UC,Diplomado Data Science,Data Science
-UC,"Diplomado en Estadística, mención Métodos Estadísticos",Estadistica
-USACH,Diplomado en Estadistica,Estadistica
-UCH,Diplomado en Inteligencia de Negocios,Business Intelligence
-UDD,Diplomado en Data Science,Data Science
-UCV,Diplomado en Big Data y Data Science,Data Science
-UCH,Diplomado Ciencia e Ingenieria de Datos,Data Science
-UDD,Doctorado en Ciencias de la Complejidad Social,Complex Systems
-UDD,Magister en Data Science,Data Science
+university,grade,name,category
+UAI,Diplomado,Diplomado Big Data para Políticas Públicas ,Data Science
+UC,Magister,Magíster en Procesamiento y Gestión de la Información,Data Science
+UC,Diplomado,Diplomado Big Data,Data Science
+UC,Diplomado,Diplomado Data Science,Data Science
+UC,Diplomado,"Diplomado en Estadística, mención Métodos Estadísticos",Estadistica
+USACH,Diplomado,Diplomado en Estadistica,Estadistica
+UCH,Diplomado,Diplomado en Inteligencia de Negocios,Business Intelligence
+UDD,Diplomado,Diplomado en Data Science,Data Science
+UCV,Diplomado,Diplomado en Big Data y Data Science,Data Science
+UCH,Diplomado,Diplomado Ciencia e Ingenieria de Datos,Data Science
+UDD,Doctorado,Doctorado en Ciencias de la Complejidad Social,Complex Systems
+UDD,Magister,Magister en Data Science,Data Science
