@@ -15,3 +15,4 @@
 | UDD        | Doctorado | Doctorado en Ciencias de la Complejidad Social         | Complex Systems       | http://dccs.udd.cl/es/                                                                                            |
 | UDD        | Magister  | Magister en Data Science                               | Data Science          | https://datascience.udd.cl                                                                                        |
 | UAI        | Diplomado | Diplomado en Inteligencia Artificial                   | AI                    | http://www.uai.cl/postgrados-y-diplomas/diploma-en-inteligencia-colectiva |
+| UC         | Curso     | Herramientas de análisis estadístico para Data Science | Data Science   |http://www.educacioncontinua.uc.cl/28436-ficha-herramientas-de-analisis-estadistico-para-data-science |
