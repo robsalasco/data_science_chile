@@ -1,3 +1,5 @@
+# Diplomados Data Science en Chile
+
 | university | grade     | name                                                   | category              | url                                                                                                               |
 |------------|-----------|--------------------------------------------------------|-----------------------|-------------------------------------------------------------------------------------------------------------------|
 | UAI        | Diplomado | Diplomado Big Data para Políticas Públicas             | Data Science          | http://www.uai.cl/facultades/diplomado-big-data-para-politicas-publicas                                           |
