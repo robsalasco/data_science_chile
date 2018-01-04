@@ -1,13 +1,13 @@
-﻿from_id,from_name,message,created_time,likes_count,comments_count,id
-626658224086769,Claudio Ramírez Guichard,En la UAI tb hay,2018-01-03T15:33:04+0000,1,0,2000070806985526
-10153612084529415,Pablo Vera,UDD tb ?,2018-01-03T15:34:15+0000,0,0,2000071260318814
-10152575322605617,Claudia Lewinsohn Castro,Excelente iniciativa ������������,2018-01-03T15:38:15+0000,1,0,2000072926985314
-10152518374467451,Rafael Vásquez González,"En la UC hay un diplomado en BigData y está el Magíster en Procesamiento y Gestión de la Información, donde hay varios ramos relacionados. Tb hay algunas líneas de investigación del doctorado de ciencias de la ingeniería en visualización de datos, minería de procesos etc.",2018-01-03T15:39:57+0000,0,2,2000073693651904
-10204617065483432,Hector Droguett Cerda,"Ok.
-Juntemos los links (URL) por favor.",2018-01-03T15:40:53+0000,2,0,2000073996985207
-10153196762638004,Jonathan Saez,Yo hice el de la chile. Se podría hacer una encuesta para saber la opinión de los que lo tomaron.,2018-01-03T15:41:15+0000,3,6,2000074133651860
-10205279762214974,Alfonso Martinez Carrie,"Podríamos realizar algún convenio con alguna U, para quizás, optar o generar  algunos descuentos extras.",2018-01-03T15:43:31+0000,5,1,2000074800318460
-10152518374467451,Rafael Vásquez González,"Magíster en Procesamiento y Gestión de la Información UC: 
+from_id,from_name,message,university,name
+626658224086769,Claudio Ramírez Guichard,En la UAI tb hay,UAI,
+"1,01536120845294E+016",Pablo Vera,UDD tb ?,,
+"1,01525753226056E+016",Claudia Lewinsohn Castro,Excelente iniciativa 👍🏼,,
+"1,01525183744675E+016",Rafael Vásquez González,"En la UC hay un diplomado en BigData y está el Magíster en Procesamiento y Gestión de la Información, donde hay varios ramos relacionados. Tb hay algunas líneas de investigación del doctorado de ciencias de la ingeniería en visualización de datos, minería de procesos etc.",UC,Magíster en Procesamiento y Gestión de la Información
+"1,02046170654834E+016",Hector Droguett Cerda,"Ok.
+Juntemos los links (URL) por favor.",,
+"1,0153196762638E+016",Jonathan Saez,Yo hice el de la chile. Se podría hacer una encuesta para saber la opinión de los que lo tomaron.,,
+"1,0205279762215E+016",Alfonso Martinez Carrie,"Podríamos realizar algún convenio con alguna U, para quizás, optar o generar  algunos descuentos extras.",,
+"1,01525183744675E+016",Rafael Vásquez González,"Magíster en Procesamiento y Gestión de la Información UC: 
 
 http://mpgi.ing.puc.cl
 
@@ -17,37 +17,37 @@ https://educacionprofesional.ing.uc.cl/?diplomado=diplomado-big-data
 
 Curso BigData UC.
 
-http://www.educacioncontinua.uc.cl/27795-ficha-big-data-y-business-analytics",2018-01-03T15:52:29+0000,0,0,2000077806984826
-10202570918046937,Iair Linker San Juan,vale el master en estadística de la PUC?,2018-01-03T15:53:11+0000,0,2,2000078110318129
-10152469035777157,Dennis Alejandro,Me entere que hay un curso de R en la UC... por si acaso...,2018-01-03T15:57:53+0000,0,1,2000080083651265
-10204620729531499,Camilo Barrera M,Diplomado en Data Science UC,2018-01-03T15:58:11+0000,2,1,2000080210317919
-10204620729531499,Camilo Barrera M,"Diplomado en Estadística, mención Métodos Estadísticos",2018-01-03T15:59:45+0000,0,1,2000080790317861
-10205421531283055,Matthieu Vernier,En la Universidad Austral de Chile tenemos un nuevo programa de Magíster en Informática empezando este año (http://ingenieria.uach.cl/index.php/postgrado/magister-en-informatica).,2018-01-03T15:59:54+0000,2,2,2000080876984519
-10152464617727517,Manuel Hidalgo,http://www.diplomadoestadistica.usach.cl/,2018-01-03T16:01:23+0000,0,0,2000081646984442
-10204620729531499,Camilo Barrera M,"Cualquier programa de la Facultad de Matemáticas UC:
+http://www.educacioncontinua.uc.cl/27795-ficha-big-data-y-business-analytics",UC,Diplomado Big Data
+"1,02025709180469E+016",Iair Linker San Juan,vale el master en estadística de la PUC?,,
+"1,01524690357772E+016",Dennis Alejandro,Me entere que hay un curso de R en la UC... por si acaso...,,
+"1,02046207295315E+016",Camilo Barrera M,Diplomado en Data Science UC,UC,Diplomado Data Science
+"1,02046207295315E+016",Camilo Barrera M,"Diplomado en Estadística, mención Métodos Estadísticos",,
+"1,02054215312831E+016",Matthieu Vernier,En la Universidad Austral de Chile tenemos un nuevo programa de Magíster en Informática empezando este año (http://ingenieria.uach.cl/index.php/postgrado/magister-en-informatica).,,
+"1,01524646177275E+016",Manuel Hidalgo,http://www.diplomadoestadistica.usach.cl/,,
+"1,02046207295315E+016",Camilo Barrera M,"Cualquier programa de la Facultad de Matemáticas UC:
 
-http://www.mat.uc.cl/programas.html",2018-01-03T16:02:01+0000,0,1,2000081983651075
-10154536377587812,Gonzalo Ríos,http://postgrado.dim.uchile.cl/magister/,2018-01-03T16:11:23+0000,1,0,2000086536983953
-10204821963485405,Fabián González,"Diplomado en Inteligencia de Negocios
+http://www.mat.uc.cl/programas.html",,
+"1,01545363775878E+016",Gonzalo Ríos,http://postgrado.dim.uchile.cl/magister/,,
+"1,02048219634854E+016",Fabián González,"Diplomado en Inteligencia de Negocios
 Arancel 102 UF
 Duración 102 Horas
 
-http://www.uchile.cl/cursos/89836/diplomado-inteligencia-de-negocios",2018-01-03T16:25:59+0000,1,0,2000093430316597
-417040101796749,Nicolas Nova Avalos,http://ingenieria.udd.cl/ver-diplomado/diplomado-en-data-science/,2018-01-03T16:29:12+0000,0,0,2000095693649704
-417040101796749,Nicolas Nova Avalos,http://www.inf.ucv.cl/diplomado-en-%e2%80%aa%e2%80%8ebig-data%e2%80%ac-y-%e2%80%aa%e2%80%8edata-science%e2%80%ac/,2018-01-03T16:29:40+0000,1,0,2000095820316358
-10206817971781531,Gonzalo Patricio Alarcon,http://www.uchile.cl/cursos/113391/diploma-de-postitulo-ciencia-e-ingenieria-de-datos,2018-01-03T17:21:52+0000,0,0,2000117663647507
-561389484,Rob Salas,google docs?,2018-01-03T17:29:31+0000,3,1,2000121110313829
-10203962512404860,Joaquin Ureta,"Aplica el doctorado de ciencias de la complejidad social?
-http://dccs.udd.cl/es/",2018-01-03T17:45:17+0000,1,0,2000129666979640
-10152398491460856,Loreto Bravo,¡Primicia para el grupo! en marzo partimos con un magíster (dictado viernes y sábados) y seguimos con nuestra segunda versión del Diplomado en Data Science.,2018-01-03T17:48:23+0000,5,1,2000130970312843
-1427349384259403,Katherine Pavez,Ward,2018-01-03T18:00:28+0000,0,0,2000135973645676
-10152398491460856,Loreto Bravo,Este es otro programa que hay en línea: https://landings.ie.edu/masterland-hst-masters-business-analytics-big-data?gclid=EAIaIQobChMIzYOozo682AIVDBOBCh3YTgBKEAAYASAAEgIbVPD_BwE&gclsrc=aw.ds&dclid=CLaSouCOvNgCFZcaHwodE9cBCQ,2018-01-03T18:12:41+0000,1,0,2000143670311573
-10152959648174798,Danilo Bustos Pérez,"Hola Hector, interesante thread. 
+http://www.uchile.cl/cursos/89836/diplomado-inteligencia-de-negocios",,
+417040101796749,Nicolas Nova Avalos,http://ingenieria.udd.cl/ver-diplomado/diplomado-en-data-science/,UDD,Diplomado en Data Science
+417040101796749,Nicolas Nova Avalos,http://www.inf.ucv.cl/diplomado-en-%e2%80%aa%e2%80%8ebig-data%e2%80%ac-y-%e2%80%aa%e2%80%8edata-science%e2%80%ac/,UCV,Diplomado en Big Data y Data Science
+"1,02068179717815E+016",Gonzalo Patricio Alarcon,http://www.uchile.cl/cursos/113391/diploma-de-postitulo-ciencia-e-ingenieria-de-datos,,
+561389484,Rob Salas,google docs?,,
+"1,02039625124049E+016",Joaquin Ureta,"Aplica el doctorado de ciencias de la complejidad social?
+http://dccs.udd.cl/es/",,
+"1,01523984914609E+016",Loreto Bravo,¡Primicia para el grupo! en marzo partimos con un magíster (dictado viernes y sábados) y seguimos con nuestra segunda versión del Diplomado en Data Science.,UDD,Magister en Data Science
+1427349384259403,Katherine Pavez,Ward,,
+"1,01523984914609E+016",Loreto Bravo,Este es otro programa que hay en línea: https://landings.ie.edu/masterland-hst-masters-business-analytics-big-data?gclid=EAIaIQobChMIzYOozo682AIVDBOBCh3YTgBKEAAYASAAEgIbVPD_BwE&gclsrc=aw.ds&dclid=CLaSouCOvNgCFZcaHwodE9cBCQ,,
+"1,01529596481748E+016",Danilo Bustos Pérez,"Hola Hector, interesante thread. 
 Yo creo que sería interesante clasificar los diplomados/cursos que hay en Big Data, donde existen materias más ligadas al procesamiento masivo de información y el Data Science (Minería de datos, Machine Learning, Deep Learning). He visto mucha confusión últimamente.
 De todas formas me gustaría mucho hacer el nano degree de Machine Learning de Udacity. 
 
-https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009",2018-01-03T19:31:23+0000,0,2,2000172286975378
-10157335025230644,Rodrigo Lopez Olivares,Diplomado BigData Uc 2.900.000 . 6 meses,2018-01-03T19:52:02+0000,0,3,2000179443641329
+https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009",,
+"1,01573350252306E+016",Rodrigo Lopez Olivares,Diplomado BigData Uc 2.900.000 . 6 meses,2018-01-03T19:52:02+0000,
 626039390883092,Erick Castillo,"Hace unos meses atrás hice una recopilación de los postgrados que hay en Chile, relacionados a la computación y/o informática.
 Contiene información de las siguientes universidades:
 - U de Chile
@@ -65,15 +65,15 @@ La información que pude recopilar es sobre:
 Si hay info que falta, es porque no la pude obtener fácilmente.
 Dejo el material en un link aparte porque es bastante texto para un comentario en facebook.
 Quizás no estén todos los postgrados que hay actualmente en Chile ni que la info esté actualizada a este año, pero espero que sea de utilidad la recopilación:
-https://pastebin.com/zRLmkK0r",2018-01-03T20:05:36+0000,4,1,2000186420307298
-10205075096098258,Nicolás Lecaros Marchant,http://www.educacioncontinua.uc.cl/27644-ficha-diplomado-en-data-science,2018-01-03T20:54:44+0000,0,1,2000201796972427
-10204617165603622,Denis Parra Santander,"Diplomado en Big Data PUC, del Departamento de Ciencia de la Computacion  https://educacionprofesional.ing.uc.cl/?diplomado=diplomado-big-data",2018-01-03T21:02:47+0000,0,0,2000204326972174
-10204620729531499,Camilo Barrera M,"No spameen, se están repitiendo",2018-01-03T21:03:58+0000,0,2,2000204646972142
-10207233868864371,Carlos Parrá García,En la adolfo ibañez tb hay,2018-01-04T02:10:17+0000,0,0,2000317113627562
-10203141110960717,Hermilo Gayosso Murillo,"¿Alguien sabe de algún curso MOOC sobre BD, analítica de datos o BI?
+https://pastebin.com/zRLmkK0r",2018-01-03T20:05:36+0000,
+"1,02050750960983E+016",Nicolás Lecaros Marchant,http://www.educacioncontinua.uc.cl/27644-ficha-diplomado-en-data-science,2018-01-03T20:54:44+0000,
+"1,02046171656036E+016",Denis Parra Santander,"Diplomado en Big Data PUC, del Departamento de Ciencia de la Computacion  https://educacionprofesional.ing.uc.cl/?diplomado=diplomado-big-data",2018-01-03T21:02:47+0000,
+"1,02046207295315E+016",Camilo Barrera M,"No spameen, se están repitiendo",2018-01-03T21:03:58+0000,
+"1,02072338688644E+016",Carlos Parrá García,En la adolfo ibañez tb hay,2018-01-04T02:10:17+0000,
+"1,02031411109607E+016",Hermilo Gayosso Murillo,"¿Alguien sabe de algún curso MOOC sobre BD, analítica de datos o BI?
 Yo he encontrado estos:
-https://miriadax.net/web/introduccion-al-business-intelligence-y-al-big-data-3-edicion-/inicio y https://miriadax.net/cursos?_3_formDate=1515032551127&p_p_id=3&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_pos=1&p_p_col_count=2&_3_struts_action=%2Fsearch%2Fsearch&_3_cur=1&_3_format=&_3_keywords=Big&_3_assetCategoryIds=&_3_cozc_facet=&_3_groupId=&_3_tvfa_facet=&documentsSearchContainerPrimaryKeys=courseadmin_WAR_liferaylmsportlet_PORTLET_26402%2Ccourseadmin_WAR_liferaylmsportlet_PORTLET_35102%2Ccourseadmin_WAR_liferaylmsportlet_PORTLET_19305%2Ccourseadmin_WAR_liferaylmsportlet_PORTLET_36102%2Ccourseadmin_WAR_liferaylmsportlet_PORTLET_41307",2018-01-04T02:24:08+0000,0,1,2000323063626967
-10152923799854605,Rodrigo Abt,"Podría hacerse un Google Sheet compartido, con los campos mínimos para comparar...",2018-01-04T02:46:38+0000,1,0,2000330873626186
-10204617065483432,Hector Droguett Cerda,Alguien se ofrece a consolidar los diplomados/postgrados ofrecidos presencialmente en Santiago?,2018-01-04T02:48:54+0000,0,0,2000331553626118
-10204617065483432,Hector Droguett Cerda,"Para partir sólo 3 campos: nombre del curso, institución y URL.",2018-01-04T02:49:57+0000,0,0,2000331846959422
-561389484,Rob Salas,https://airtable.com,2018-01-04T02:52:25+0000,0,0,2000333713625902
+https://miriadax.net/web/introduccion-al-business-intelligence-y-al-big-data-3-edicion-/inicio y https://miriadax.net/cursos?_3_formDate=1515032551127&p_p_id=3&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_pos=1&p_p_col_count=2&_3_struts_action=%2Fsearch%2Fsearch&_3_cur=1&_3_format=&_3_keywords=Big&_3_assetCategoryIds=&_3_cozc_facet=&_3_groupId=&_3_tvfa_facet=&documentsSearchContainerPrimaryKeys=courseadmin_WAR_liferaylmsportlet_PORTLET_26402%2Ccourseadmin_WAR_liferaylmsportlet_PORTLET_35102%2Ccourseadmin_WAR_liferaylmsportlet_PORTLET_19305%2Ccourseadmin_WAR_liferaylmsportlet_PORTLET_36102%2Ccourseadmin_WAR_liferaylmsportlet_PORTLET_41307",2018-01-04T02:24:08+0000,
+"1,01529237998546E+016",Rodrigo Abt,"Podría hacerse un Google Sheet compartido, con los campos mínimos para comparar...",2018-01-04T02:46:38+0000,
+"1,02046170654834E+016",Hector Droguett Cerda,Alguien se ofrece a consolidar los diplomados/postgrados ofrecidos presencialmente en Santiago?,2018-01-04T02:48:54+0000,
+"1,02046170654834E+016",Hector Droguett Cerda,"Para partir sólo 3 campos: nombre del curso, institución y URL.",2018-01-04T02:49:57+0000,
+561389484,Rob Salas,https://airtable.com,2018-01-04T02:52:25+0000,
