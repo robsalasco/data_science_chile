@@ -1,28 +1,13 @@
-from_id,from_name,message,university,name
-626658224086769,Claudio Ramírez Guichard,En la UAI tb hay,UAI,Diplomado Big Data para Políticas Públicas 
-"1,01525183744675E+016",Rafael Vásquez González,"En la UC hay un diplomado en BigData y está el Magíster en Procesamiento y Gestión de la Información, donde hay varios ramos relacionados. Tb hay algunas líneas de investigación del doctorado de ciencias de la ingeniería en visualización de datos, minería de procesos etc.",UC,Magíster en Procesamiento y Gestión de la Información
-"1,01525183744675E+016",Rafael Vásquez González,"Magíster en Procesamiento y Gestión de la Información UC: 
-
-http://mpgi.ing.puc.cl
-
-Diplomado BigData UC.
-
-https://educacionprofesional.ing.uc.cl/?diplomado=diplomado-big-data
-
-Curso BigData UC.
-
-http://www.educacioncontinua.uc.cl/27795-ficha-big-data-y-business-analytics",UC,Diplomado Big Data
-"1,02046207295315E+016",Camilo Barrera M,Diplomado en Data Science UC,UC,Diplomado Data Science
-"1,02046207295315E+016",Camilo Barrera M,"Diplomado en Estadística, mención Métodos Estadísticos",,
-"1,01524646177275E+016",Manuel Hidalgo,http://www.diplomadoestadistica.usach.cl/,,
-"1,02048219634854E+016",Fabián González,"Diplomado en Inteligencia de Negocios
-Arancel 102 UF
-Duración 102 Horas
-
-http://www.uchile.cl/cursos/89836/diplomado-inteligencia-de-negocios",,
-417040101796749,Nicolas Nova Avalos,http://ingenieria.udd.cl/ver-diplomado/diplomado-en-data-science/,UDD,Diplomado en Data Science
-417040101796749,Nicolas Nova Avalos,http://www.inf.ucv.cl/diplomado-en-%e2%80%aa%e2%80%8ebig-data%e2%80%ac-y-%e2%80%aa%e2%80%8edata-science%e2%80%ac/,UCV,Diplomado en Big Data y Data Science
-"1,02068179717815E+016",Gonzalo Patricio Alarcon,http://www.uchile.cl/cursos/113391/diploma-de-postitulo-ciencia-e-ingenieria-de-datos,UCH,Diplomado Ciencia e Ingenieria de Datos
-"1,02039625124049E+016",Joaquin Ureta,"Aplica el doctorado de ciencias de la complejidad social?
-http://dccs.udd.cl/es/",,
-"1,01523984914609E+016",Loreto Bravo,¡Primicia para el grupo! en marzo partimos con un magíster (dictado viernes y sábados) y seguimos con nuestra segunda versión del Diplomado en Data Science.,UDD,Magister en Data Science
+university,name,category
+UAI,Diplomado Big Data para Políticas Públicas ,Data Science
+UC,Magíster en Procesamiento y Gestión de la Información,Data Science
+UC,Diplomado Big Data,Data Science
+UC,Diplomado Data Science,Data Science
+UC,"Diplomado en Estadística, mención Métodos Estadísticos",Estadistica
+USACH,Diplomado en Estadistica,Estadistica
+UCH,Diplomado en Inteligencia de Negocios,Business Inteligence
+UDD,Diplomado en Data Science,Data Science
+UCV,Diplomado en Big Data y Data Science,Data Science
+UCH,Diplomado Ciencia e Ingenieria de Datos,Data Science
+UDD,Doctorado en Ciencias de la Complejidad Social,Complex Systems
+UDD,Magister en Data Science,Data Science
