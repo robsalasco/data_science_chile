@@ -1,7 +1,7 @@
 # Diplomados Data Science en Chile
 
 | university | grade | name | category | url | time | price |
-|------------|-----------|--------------------------------------------------------|-----------------------|-------------------------------------------------------------------------------------------------------------------|------|--------|
+|:------------:|:-----------:|:--------------------------------------------------------|:-----------------------:|:-------------------------------------------------------------------------------------------------------------------|:------:|--------:|
 | UACH | Magister | Magíster en Informática| Data Science & HPC| http://ingenieria.uach.cl/index.php/postgrado/magister-en-informatica |||
 | UAI | Curso |Big Data para Toma de Decisiones| Business Intelligence | http://www.uai.cl/cursos-y-seminarios/ingenieria-y-ciencias/big-data-para-toma-de-decisiones|||
 | UAI | Diplomado | Diplomado Big Data para Políticas Públicas | Data Science | http://www.uai.cl/facultades/diplomado-big-data-para-politicas-publicas |||
