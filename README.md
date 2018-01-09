@@ -20,3 +20,4 @@
 | UDD | Diplomado | Diplomado en Data Science | Data Science | http://ingenieria.udd.cl/ver-diplomado/diplomado-en-data-science/ |||
 | UDD | Magister | Magister en Data Science | Data Science | https://datascience.udd.cl |||
 | USACH | Diplomado | Diplomado en Estadistica, mención Minería de Datos | Estadistica | http://www.diplomadoestadistica.usach.cl |||
+| UC | Magister | Magister en Estadística | Estadistica | http://www.mat.uc.cl/me.html |||
