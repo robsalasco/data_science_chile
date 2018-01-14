@@ -2,10 +2,10 @@
 
 | university | grade | name | category | url | time | price |
 |:------------:|:-----------:|:--------------------------------------------------------|:-----------------------:|:-------------------------------------------------------------------------------------------------------------------|:------:|--------:|
-| UACH | Magister | Magíster en Informática| Data Science & HPC| http://ingenieria.uach.cl/index.php/postgrado/magister-en-informatica |||
-| UAI | Curso |Big Data para Toma de Decisiones| Business Intelligence | http://www.uai.cl/cursos-y-seminarios/ingenieria-y-ciencias/big-data-para-toma-de-decisiones|||
-| UAI | Diplomado | Diplomado Big Data para Políticas Públicas | Data Science | http://www.uai.cl/facultades/diplomado-big-data-para-politicas-publicas |||
-| UAI | Diplomado | Diplomado en Inteligencia Artificial | AI | http://www.uai.cl/postgrados-y-diplomas/diploma-en-inteligencia-colectiva |||
+| UACH | Magister | Magíster en Informática| Data Science & HPC| http://ingenieria.uach.cl/index.php/postgrado/magister-en-informatica |NA|NA|
+| UAI | Curso |Big Data para Toma de Decisiones| Business Intelligence | http://www.uai.cl/cursos-y-seminarios/ingenieria-y-ciencias/big-data-para-toma-de-decisiones|NA|NA|
+| UAI | Diplomado | Diplomado Big Data para Políticas Públicas | Data Science | http://www.uai.cl/facultades/diplomado-big-data-para-politicas-publicas |NA|NA|
+| UAI | Diplomado | Diplomado en Inteligencia Artificial | AI | http://www.uai.cl/postgrados-y-diplomas/diploma-en-inteligencia-colectiva |NA|NA|
 | UC | Curso | Herramientas de análisis estadístico para Data Science | Data Science | http://www.educacioncontinua.uc.cl/28436-ficha-herramientas-de-analisis-estadistico-para-data-science | 25 | $590000 |
 | UC | Diplomado | Diplomado Big Data | Data Science | https://educacionprofesional.ing.uc.cl/?diplomado=diplomado-big-data | 144 | $2900000 |
 | UC | Diplomado | Diplomado Data Science | Data Science | http://www.educacioncontinua.uc.cl/27644-ficha-diplomado-en-data-science | 125 | $2490000 |
@@ -16,7 +16,7 @@
 | UCH | Diplomado | Diplomado Ciencia e Ingenieria de Datos | Data Science | https://www.dcc.uchile.cl/datos | 174 | 150UF |
 | UCH | Diplomado | Diplomado en Inteligencia de Negocios | Business Intelligence | http://www.eeuchile.cl/programas/inteligencia-de-negocios/ | 102 | 102UF |
 | UCV | Diplomado | Diplomado en Big Data y Data Science | Data Science | http://www.inf.ucv.cl/diplomado-en-%E2%80%AA%E2%80%8Ebig-data%E2%80%AC-y-%E2%80%AA%E2%80%8Edata-science%E2%80%AC/ | 81 | $1700000 |
-| UDD | Diplomado | Diplomado en Data Science | Data Science | http://ingenieria.udd.cl/ver-diplomado/diplomado-en-data-science/ |||
-| UDD | Magister | Magister en Data Science | Data Science | https://datascience.udd.cl |||
-| USACH | Diplomado | Diplomado en Estadistica, mención Minería de Datos | Estadistica | http://www.diplomadoestadistica.usach.cl |||
-| UC | Magister | Magister en Estadística | Estadistica | http://www.mat.uc.cl/me.html |||
+| UDD | Diplomado | Diplomado en Data Science | Data Science | http://ingenieria.udd.cl/ver-diplomado/diplomado-en-data-science/ |NA|NA|
+| UDD | Magister | Magister en Data Science | Data Science | https://datascience.udd.cl |NA|NA|
+| USACH | Diplomado | Diplomado en Estadistica, mención Minería de Datos | Estadistica | http://www.diplomadoestadistica.usach.cl |NA|NA|
+| UC | Magister | Magister en Estadística | Estadistica | http://www.mat.uc.cl/me.html |NA|NA|
