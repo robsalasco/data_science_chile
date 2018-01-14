@@ -10,7 +10,7 @@
 | UC | Diplomado | Diplomado Big Data | Data Science | https://educacionprofesional.ing.uc.cl/?diplomado=diplomado-big-data | 144 | $2900000 |
 | UC | Diplomado | Diplomado Data Science | Data Science | http://www.educacioncontinua.uc.cl/27644-ficha-diplomado-en-data-science | 125 | $2490000 |
 | UC | Diplomado | Diplomado en Estadística, mención Métodos Estadísticos | Estadistica | http://www.educacioncontinua.uc.cl/28291-ficha-diplomado-en-estadistica-mencion-metodos-estadisticos | 200 | $1500000 |
-| UC | Magister | Magíster en Procesamiento y Gestión de la Información | Data Science | http://mpgi.ing.puc.cl |||
+| UC | Magister | Magíster en Procesamiento y Gestión de la Información | Data Science | http://mpgi.ing.puc.cl |NA|NA|
 | UCH | Curso| Data Mining y Aplicaciones en Marketing Digital| Business Intelligence | http://www.eeuchile.cl/programas/data-mining-y-aplicaciones-en-marketing-digital/| 24 | 26UF |
 | UCH | Curso| Data Mining y Aplicaciones en Riesgo de Crédito | Business Intelligence | http://www.eeuchile.cl/programas/data-science-y-aplicaciones-en-riesgo-de-credito/| 24 | 26UF |
 | UCH | Diplomado | Diplomado Ciencia e Ingenieria de Datos | Data Science | https://www.dcc.uchile.cl/datos | 174 | 150UF |
