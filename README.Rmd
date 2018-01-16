@@ -26,7 +26,7 @@ Fácil, se edita el archivo CSV y se envía una pull request.
 
 ## Algunas analíticas
 
-```{r analytics, echo=FALSE, dpi=300, fig.height=6, fig.width=18, message=F, warning=F}
+```{r analytics, echo=FALSE, dpi=300, fig.height=6, fig.width=16, message=F, warning=F}
 library(ggplot2)
 library(gridExtra)
 library(ggpubr)
@@ -41,7 +41,7 @@ g1 <- g1 + geom_bar(stat="identity", width = 0.5, fill="black") +
   labs(title="Universidades", 
        subtitle="Frecuencia de cursos relacionados con data science",
        x="",
-       y="Frecuencia")
+       y="Frecuencia") + scale_y_continuous(breaks = seq(0, max(df1$Freq), 1))
 
 freqtable2 <- table(data$category)
 df2 <- as.data.frame.table(freqtable2)
@@ -51,7 +51,7 @@ g2 <- g2 + geom_bar(stat="identity", width = 0.5, fill="grey") +
   labs(title="Categorías", 
        subtitle="Frecuencia de categorías de cursos",
        x="",
-       y="Frecuencia")
+       y="Frecuencia") + scale_y_continuous(breaks = seq(0, max(df2$Freq), 1))
 
 grid.arrange(g1,g2, ncol=2)
 
