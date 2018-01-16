@@ -26,7 +26,7 @@ Fácil, se edita el archivo CSV y se envía una pull request.
 
 ## Algunas analíticas
 
-```{r analytics1, echo=FALSE}
+```{r analytics1, echo=FALSE, dpi=300}
 library(ggplot2)
 
 theme_set(theme_classic())
@@ -42,7 +42,7 @@ g + geom_bar(stat="identity", width = 0.5, fill="black") +
            y="Frecuencia")
 ```
 
-```{r analytics2, echo=FALSE}
+```{r analytics2, echo=FALSE, dpi=300}
 freqtable <- table(data$category)
 df <- as.data.frame.table(freqtable)
 
