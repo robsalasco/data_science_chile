@@ -27,6 +27,6 @@ Fácil, se edita el archivo CSV y se envía una pull request.
 
 ## Algunas analíticas
 
-![](README_files/figure-gfm/analytics1-1.png)<!-- -->
+    ## Loading required package: magrittr
 
-![](README_files/figure-gfm/analytics2-1.png)<!-- -->
+![](README_files/figure-gfm/analytics-1.png)<!-- -->

@@ -26,30 +26,33 @@ Fácil, se edita el archivo CSV y se envía una pull request.
 
 ## Algunas analíticas
 
-```{r analytics1, echo=FALSE, dpi=300}
+```{r analytics, echo=FALSE, dpi=300, fig.height=6, fig.width=18}
 library(ggplot2)
+library(gridExtra)
+library(ggpubr)
 
-theme_set(theme_classic())
+theme_set(theme_pubr())
 
-freqtable <- table(data$university)
-df <- as.data.frame.table(freqtable)
+freqtable1 <- table(data$university)
+df1 <- as.data.frame.table(freqtable1)
 
-g <- ggplot(df, aes(Var1, Freq))
-g + geom_bar(stat="identity", width = 0.5, fill="black") + 
-      labs(title="Universidades", 
-           subtitle="Frecuencia de cursos relacionados con data science",
-           x="",
-           y="Frecuencia")
-```
+g1 <- ggplot(df1, aes(Var1, Freq))
+g1 <- g1 + geom_bar(stat="identity", width = 0.5, fill="black") + 
+  labs(title="Universidades", 
+       subtitle="Frecuencia de cursos relacionados con data science",
+       x="",
+       y="Frecuencia")
 
-```{r analytics2, echo=FALSE, dpi=300}
-freqtable <- table(data$category)
-df <- as.data.frame.table(freqtable)
+freqtable2 <- table(data$category)
+df2 <- as.data.frame.table(freqtable2)
 
-g <- ggplot(df, aes(Var1, Freq))
-g + geom_bar(stat="identity", width = 0.5, fill="grey") + 
-      labs(title="Categorías", 
-           subtitle="Frecuencia de categorías de cursos",
-           x="",
-           y="Frecuencia")
+g2 <- ggplot(df2, aes(Var1, Freq))
+g2 <- g2 + geom_bar(stat="identity", width = 0.5, fill="grey") + 
+  labs(title="Categorías", 
+       subtitle="Frecuencia de categorías de cursos",
+       x="",
+       y="Frecuencia")
+
+grid.arrange(g1,g2, ncol=2)
+
 ```
