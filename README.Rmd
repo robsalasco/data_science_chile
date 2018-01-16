@@ -1,0 +1,55 @@
+---
+title: "README"
+author: "Roberto Salas"
+date: "16/1/2018"
+output:
+  md_document:
+    variant: gfm
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Diplomados Data Science en Chile
+
+```{r courses, echo=FALSE}
+library(readr)
+library(knitr)
+data <- read.csv("data.csv")
+kable(data)
+```
+
+## ¿Cómo añadir un curso/diplomado/magíster a este repositorio?
+
+Fácil, se edita el archivo CSV y se envía una pull request.
+
+## Algunas analíticas
+
+```{r analytics1, echo=FALSE}
+library(ggplot2)
+
+theme_set(theme_classic())
+
+freqtable <- table(data$university)
+df <- as.data.frame.table(freqtable)
+
+g <- ggplot(df, aes(Var1, Freq))
+g + geom_bar(stat="identity", width = 0.5, fill="black") + 
+      labs(title="Universidades", 
+           subtitle="Frecuencia de cursos relacionados con data science",
+           x="",
+           y="Frecuencia")
+```
+
+```{r analytics2, echo=FALSE}
+freqtable <- table(data$category)
+df <- as.data.frame.table(freqtable)
+
+g <- ggplot(df, aes(Var1, Freq))
+g + geom_bar(stat="identity", width = 0.5, fill="grey") + 
+      labs(title="Categorías", 
+           subtitle="Frecuencia de categorías de cursos",
+           x="",
+           y="Frecuencia")
+```
