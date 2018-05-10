@@ -20,6 +20,7 @@
 | 16 | UDD        | Magister  | Magister en Data Science                               | Data Science          | <https://datascience.udd.cl>                                                                                        |    NA | NA       |
 | 17 | USACH      | Diplomado | Diplomado en Estadistica mención Minería de Datos      | Estadistica           | <http://www.diplomadoestadistica.usach.cl>                                                                          |   160 | $2500000 |
 | 18 | UC         | Magister  | Magister en Estadística                                | Estadistica           | <http://www.mat.uc.cl/me.html>                                                                                      |    NA | NA       |
+| 19 | UAI        | Magister  | Magister en Data Science                               | Data Science          | <http://www.uai.cl/postgrados-y-diplomas/magister-en-data-science>                                                  |    NA | 320UF    |
 
 ## ¿Cómo añadir un curso/diplomado/magíster a este repositorio?
 
