@@ -18,3 +18,4 @@ id,university,grade,name,category,url,hours,price
 17,USACH,Diplomado,Diplomado en Estadistica mención Minería de Datos,Estadistica,http://www.diplomadoestadistica.usach.cl,160,$2500000
 18,UC,Magister,Magister en Estadística,Estadistica,http://www.mat.uc.cl/me.html,NA,NA
 19,UAI,Magister,Magister en Data Science,Data Science,http://www.uai.cl/postgrados-y-diplomas/magister-en-data-science,NA,320UF
+20,UC,Magister,Magister en Inteligencia Artificial,IA,https://mia.uc.cl,NA,NA
