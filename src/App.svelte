@@ -111,6 +111,10 @@ function resetFilter() {
     </section>
   </main>
 </div>
+<a class="github-fork-ribbon" href="https://github.com/robsalasco/data_science_chile" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
+<footer>
+  <p>Made in <a href="https://svelte.dev" target="_blank" rel="noopener">Svelte</a> with ❤️ by <a href="https://twitter.com/robsalasco" target="_blank" rel="noopener">@robsalasco</a></p>
+</footer>
 <style>
 .title {
 text-align: center;
@@ -133,6 +137,10 @@ justify-content: space-between;
 .filter-element {
 padding: 1rem 1.5rem;
 width: 400px;
+margin-bottom: 2rem;
+}
+footer {
+text-align: center;
 margin-bottom: 2rem;
 }
 </style>
