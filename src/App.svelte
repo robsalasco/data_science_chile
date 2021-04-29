@@ -1,5 +1,5 @@
 <script>
-import { getData } from "./getfile"; // import our pokemon api calls
+import { getData } from "./getfile";
 import { onMount } from 'svelte';
 
 let res;
@@ -20,15 +20,21 @@ univList = [...new Set(res.map(function(x) {return x.university}))];
 });
 
 function handleFilter() {
+  
   coursesList = res;
-
-  if (selectedGrade == "") {
+  
+  if (selectedUni == "" && selectedGrade == "") {
+    coursesList = res
+  } else if  (selectedGrade == "") {
     coursesList = coursesList.filter((value) => value.university == selectedUni);
   } else if (selectedUni == "") {
     coursesList = coursesList.filter((value) => value.grade == selectedGrade);
-  } else {
+  } else if (selectedUni != "" && selectedGrade != "") {
     coursesList = coursesList.filter((value) => value.grade == selectedGrade && value.university == selectedUni);
+  } else {
+    coursesList = res
   }
+
 }
 
 function resetFilter() {
