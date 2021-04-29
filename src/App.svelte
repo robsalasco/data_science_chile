@@ -1,23 +1,80 @@
 <script>
-  import { getData } from "./getfile"; // import our pokemon api calls
-  import { onMount } from 'svelte';
-  
-  let coursesList = [];
-	
-  onMount(async () => {
-    const res = await getData();
-    coursesList = res;
-  });
+import { getData } from "./getfile"; // import our pokemon api calls
+import { onMount } from 'svelte';
 
-  console.log(coursesList)
+let res;
+
+let selectedUni;
+let selectedGrade;
+
+let coursesList = [];
+let gradesList = [];
+let univList = [];
+
+onMount(async () => {
+res = await getData();
+coursesList = res;
+gradesList = [...new Set(res.map(function(x) {return x.grade}))];
+univList = [...new Set(res.map(function(x) {return x.university}))];
+
+});
+
+function handleFilter() {
+  coursesList = res;
+
+  if (selectedGrade == "") {
+    coursesList = coursesList.filter((value) => value.university == selectedUni);
+  } else if (selectedUni == "") {
+    coursesList = coursesList.filter((value) => value.grade == selectedGrade);
+  } else {
+    coursesList = coursesList.filter((value) => value.grade == selectedGrade && value.university == selectedUni);
+  }
+}
+
+function resetFilter() {
+  coursesList = res
+}
+
 
 </script>
+
 <header class="title">
   <h2>Data Science en Chile</h2>
   <p>Lista de cursos de Data Science en Chile 📈📊🇨🇱</p>
 </header>
 <div class="container">
   <main class="main-content">
+    <section class="showcase">
+      <div class="nes-container with-title is-centered">
+        <p class="title">Filtros</p>
+        <div class="test">
+          <div class="filter-element">
+            <label for="default_select">Universidad</label>
+            <div class="nes-select">
+              <select bind:value={selectedUni} required id="default_select">
+                <option value="" >Ninguno</option>
+                {#each univList as uni}
+                <option value={uni}>{uni}</option>
+                {/each}
+              </select>
+            </div>
+          </div>
+          <div class="filter-element">
+            <label for="default_select">Grado</label>
+            <div class="nes-select">
+              <select bind:value={selectedGrade} required id="default_select">
+                <option value="">Ninguno</option>
+                {#each gradesList as grade}
+                <option value={grade}>{grade}</option>
+                {/each}
+              </select>
+            </div>
+          </div>
+        </div>
+        <button on:click={handleFilter} type="button" class="nes-btn is-primary">Filtrar</button>
+        <button on:click={resetFilter} type="button" class="nes-btn is-error">Reset</button>
+      </div>
+    </section>
     <section class="topic">
       <div class="nes-table-responsive">
         <table class="nes-table is-bordered is-centered">
@@ -41,7 +98,7 @@
               <td>{row.price}</td>
               <td>{row.moneda}</td>
             </tr>
-           {/each}
+            {/each}
           </tbody>
         </table>
       </div>
@@ -59,8 +116,21 @@ padding: 1em;
 max-width: 980px;
 margin: 0 auto;
 }
+section.showcase {
+margin-bottom: 2.5rem;
+}
+.test {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.filter-element {
+padding: 1rem 1.5rem;
+width: 400px;
+margin-bottom: 2rem;
+}
 </style>
 
 <svelte:head>
-  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </svelte:head>
