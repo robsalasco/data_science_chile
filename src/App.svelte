@@ -112,7 +112,7 @@ function resetFilter() {
             </tr>
             {:else}
             <tr>
-              <td colspan="6"><p style="text-align:center;">No hay información disponible</p></td>
+              <td colspan="6" style="width:200%"><p style="text-align:center;">No hay información disponible</p></td>
             </tr>
             {/each}
           </tbody>
