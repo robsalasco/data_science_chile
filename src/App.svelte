@@ -1,47 +1,43 @@
 <script>
 import { getData } from "./getfile";
 import { onMount } from 'svelte';
-
 let res;
-
+let resLength;
+let masterLength;
+let diplomaLength;
+let cursosLength;
 let selectedUni;
 let selectedGrade;
-
 let coursesList = [];
 let gradesList = [];
 let univList = [];
-
 onMount(async () => {
 res = await getData();
 coursesList = res;
 gradesList = [...new Set(res.map(function(x) {return x.grade}))];
 univList = [...new Set(res.map(function(x) {return x.university}))];
-
+resLength = res.length
+masterLength = res.filter(x => x.grade=='Magister').length
+diplomaLength = res.filter(x => x.grade=='Diplomado').length
+cursosLength = res.filter(x => x.grade=='Curso').length
 });
-
 function handleFilter() {
-  
-  coursesList = res;
-  
-  if (selectedUni == "" && selectedGrade == "") {
-    coursesList = res
-  } else if  (selectedGrade == "") {
-    coursesList = coursesList.filter((value) => value.university == selectedUni);
-  } else if (selectedUni == "") {
-    coursesList = coursesList.filter((value) => value.grade == selectedGrade);
-  } else if (selectedUni != "" && selectedGrade != "") {
-    coursesList = coursesList.filter((value) => value.grade == selectedGrade && value.university == selectedUni);
-  } else {
-    coursesList = res
-  }
-
+coursesList = res;
+if (selectedUni == "" && selectedGrade == "") {
+coursesList = res
+} else if  (selectedGrade == "") {
+coursesList = coursesList.filter((value) => value.university == selectedUni);
+} else if (selectedUni == "") {
+coursesList = coursesList.filter((value) => value.grade == selectedGrade);
+} else if (selectedUni != "" && selectedGrade != "") {
+coursesList = coursesList.filter((value) => value.grade == selectedGrade && value.university == selectedUni);
+} else {
+coursesList = res
 }
-
+}
 function resetFilter() {
-  coursesList = res
+coursesList = res
 }
-
-
 </script>
 
 <header class="title">
@@ -109,12 +105,22 @@ function resetFilter() {
         </table>
       </div>
     </section>
+    <section>
+      <div class="nes-container with-title">
+        <p class="title">Stats</p>
+        <p>Total de elementos: {resLength}</p>
+        <p>Total de magisters: {masterLength}</p>
+        <p>Total de diplomados: {diplomaLength}</p>
+        <p>Total de cursos: {cursosLength}</p>
+      </div>
+    </section>
   </main>
 </div>
 <a class="github-fork-ribbon" href="https://github.com/robsalasco/data_science_chile" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
 <footer>
   <p>Made in <a href="https://svelte.dev" target="_blank" rel="noopener">Svelte</a> with ❤️ by <a href="https://twitter.com/robsalasco" target="_blank" rel="noopener">@robsalasco</a></p>
 </footer>
+
 <style>
 .title {
 text-align: center;
@@ -126,7 +132,7 @@ padding: 1em;
 max-width: 980px;
 margin: 0 auto;
 }
-section.showcase {
+section {
 margin-bottom: 2.5rem;
 }
 .test {
