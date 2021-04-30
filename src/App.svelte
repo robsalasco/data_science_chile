@@ -23,6 +23,7 @@ onMount(async () => {
   univList = [...new Set(res.map(function (x) {
     return x.university
   }))];
+
   resLength = res.length
   masterLength = res.filter(x => x.grade == 'Magister').length
   diplomaLength = res.filter(x => x.grade == 'Diplomado').length
@@ -58,7 +59,7 @@ function resetFilter() {
     <section class="showcase">
       <div class="nes-container with-title is-centered">
         <p class="title">Filtros</p>
-        <div class="test">
+        <div class="sidebyside">
           <div class="filter-element">
             <label for="default_select">Universidad</label>
             <div class="nes-select">
@@ -147,7 +148,7 @@ section {
   margin-bottom: 2.5rem;
 }
 
-.test {
+.sidebyside {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
