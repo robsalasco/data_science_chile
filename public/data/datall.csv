@@ -20,3 +20,8 @@ id,university,grade,name,url,hours,price,moneda
 19,UAI,Magister,Magister en Data Science,http://www.uai.cl/postgrados-y-diplomas/magister-en-data-science,NA,320,uf
 20,UC,Magister,Magister en Inteligencia Artificial,https://mia.uc.cl,NA,NA,NA
 21,UDLA,Diplomado,Diplomado en Data Science,https://econtinua.udla.cl/diplomado-en-data-science,NA,NA,NA
+22,USACH,Diplomado,Diplomado en Data Science,https://diplomadosusach.cl/diplomado-en-data-science/,NA,NA,NA
+23,UDEC,Diplomado,Diplomado en Ciencia de Datos,https://uds.udec.cl/programa/diploma-en-ciencia-de-datos/?np=Diploma%20en%20Ciencia%20de%20Datos,96,1590000,pesos
+24,UDEC,Diplomado,Diplomado en Inteligencia Artificial,https://uds.udec.cl/programa/diploma-en-inteligencia-artificial/?np=Diploma%20en%20Inteligencia%20Artificial,132,2150000,pesos
+25,UANDES,Diplomado,Diplomado de Big Data & Ciencia de Datos,https://www.uandesonline.cl/programa/diplomado-en-big-data-ciencia-de-datos/,NA,1600000,pesos
+26,UV,Diplomado,Diplomado en Data Science,https://postgrados.uv.cl/diplomas/facultad-de-ingenieria/data,NA,1700000,pesos
