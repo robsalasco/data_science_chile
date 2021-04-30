@@ -58,7 +58,7 @@ function resetFilter() {
             <label for="default_select">Universidad</label>
             <div class="nes-select">
               <select bind:value={selectedUni} required id="default_select">
-                <option value="" >Ninguno</option>
+                <option value="" >Todos</option>
                 {#each univList as uni}
                 <option value={uni}>{uni}</option>
                 {/each}
@@ -69,7 +69,7 @@ function resetFilter() {
             <label for="default_select">Grado</label>
             <div class="nes-select">
               <select bind:value={selectedGrade} required id="default_select">
-                <option value="">Ninguno</option>
+                <option value="">Todos</option>
                 {#each gradesList as grade}
                 <option value={grade}>{grade}</option>
                 {/each}
