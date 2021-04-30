@@ -93,7 +93,7 @@ function resetFilter() {
           <thead>
             <tr>
               <th>ID</th>
-              <th>University</th>
+              <th>Universidad</th>
               <th>Grado</th>
               <th>Nombre</th>
               <th>Precio</th>
