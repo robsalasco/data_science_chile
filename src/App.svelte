@@ -1,6 +1,7 @@
 <script>
-import { getData } from "./getfile";
-import { onMount } from 'svelte';
+import {getData} from "./getfile";
+import {onMount} from 'svelte';
+
 let res;
 let resLength;
 let masterLength;
@@ -8,35 +9,43 @@ let diplomaLength;
 let cursosLength;
 let selectedUni;
 let selectedGrade;
+
 let coursesList = [];
 let gradesList = [];
 let univList = [];
+
 onMount(async () => {
-res = await getData();
-coursesList = res;
-gradesList = [...new Set(res.map(function(x) {return x.grade}))];
-univList = [...new Set(res.map(function(x) {return x.university}))];
-resLength = res.length
-masterLength = res.filter(x => x.grade=='Magister').length
-diplomaLength = res.filter(x => x.grade=='Diplomado').length
-cursosLength = res.filter(x => x.grade=='Curso').length
+  res = await getData();
+  coursesList = res;
+  gradesList = [...new Set(res.map(function (x) {
+    return x.grade
+  }))];
+  univList = [...new Set(res.map(function (x) {
+    return x.university
+  }))];
+  resLength = res.length
+  masterLength = res.filter(x => x.grade == 'Magister').length
+  diplomaLength = res.filter(x => x.grade == 'Diplomado').length
+  cursosLength = res.filter(x => x.grade == 'Curso').length
 });
+
 function handleFilter() {
-coursesList = res;
-if (selectedUni == "" && selectedGrade == "") {
-coursesList = res
-} else if  (selectedGrade == "") {
-coursesList = coursesList.filter((value) => value.university == selectedUni);
-} else if (selectedUni == "") {
-coursesList = coursesList.filter((value) => value.grade == selectedGrade);
-} else if (selectedUni != "" && selectedGrade != "") {
-coursesList = coursesList.filter((value) => value.grade == selectedGrade && value.university == selectedUni);
-} else {
-coursesList = res
+  coursesList = res;
+  if (selectedUni == "" && selectedGrade == "") {
+    coursesList = res
+  } else if (selectedGrade == "") {
+    coursesList = coursesList.filter((value) => value.university == selectedUni);
+  } else if (selectedUni == "") {
+    coursesList = coursesList.filter((value) => value.grade == selectedGrade);
+  } else if (selectedUni != "" && selectedGrade != "") {
+    coursesList = coursesList.filter((value) => value.grade == selectedGrade && value.university == selectedUni);
+  } else {
+    coursesList = res
+  }
 }
-}
+
 function resetFilter() {
-coursesList = res
+  coursesList = res
 }
 </script>
 
@@ -123,34 +132,39 @@ coursesList = res
 
 <style>
 .title {
-text-align: center;
-margin-top: 50px;
-margin-bottom: 30px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
+
 main {
-padding: 1em;
-max-width: 980px;
-margin: 0 auto;
+  padding: 1em;
+  max-width: 980px;
+  margin: 0 auto;
 }
+
 section {
-margin-bottom: 2.5rem;
+  margin-bottom: 2.5rem;
 }
+
 .test {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+
 .filter-element {
-padding: 1rem 1.5rem;
-width: 400px;
-margin-bottom: 2rem;
+  padding: 1rem 1.5rem;
+  width: 400px;
+  margin-bottom: 2rem;
 }
+
 footer {
-text-align: center;
-margin-bottom: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 </style>
 
 <svelte:head>
-<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </svelte:head>
