@@ -50,7 +50,7 @@ function handleFilter() {
 
 function resetFilter() {
   coursesList = res
-  coursesList.sort(function(a, b) {return a.id - b.id;})
+  coursesList.sort(function(a, b) {return parseFloat(a.id) - parseFloat(b.id);})
 }
 
 $: sort = (column) => {
@@ -66,9 +66,9 @@ $: sort = (column) => {
 		let sortModifier = (sortBy.ascending) ? 1 : -1;
 		
 		let sort = (a, b) => 
-			(a[column] < b[column]) 
+			(parseFloat(a[column].replace(/NA/g,'0')) < parseFloat(b[column].replace(/NA/g,'0')))
 			? -1 * sortModifier 
-			: (a[column] > b[column]) 
+			: (parseFloat(a[column].replace(/NA/g,'0')) > parseFloat(b[column].replace(/NA/g,'0')))
 			? 1 * sortModifier 
 			: 0;
 		
@@ -123,7 +123,7 @@ $: sort = (column) => {
               <th>Grado</th>
               <th>Nombre</th>
               <th on:click={sort("price")}>Precio</th>
-              <th on:click={sort("moneda")}>Moneda</th>
+              <th>Moneda</th>
             </tr>
           </thead>
           <tbody>
