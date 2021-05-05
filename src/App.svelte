@@ -53,6 +53,8 @@ function resetFilter() {
   coursesList.sort(function(a, b) {return parseFloat(a.id) - parseFloat(b.id);})
 }
 
+// FROM SVELTE TUTORIALS
+
 $: sort = (column) => {
 		
 		if (sortBy.col == column) {
@@ -62,7 +64,6 @@ $: sort = (column) => {
 			sortBy.ascending = true
 		}
 		
-		// Modifier to sorting function for ascending or descending
 		let sortModifier = (sortBy.ascending) ? 1 : -1;
 		
 		let sort = (a, b) => 
