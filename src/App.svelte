@@ -14,9 +14,12 @@ let coursesList = [];
 let gradesList = [];
 let univList = [];
 
+let sortBy = {col: "id", ascending: true};
+
 onMount(async () => {
   res = await getData();
   coursesList = res;
+  
   gradesList = [...new Set(res.map(function (x) {
     return x.grade
   }))];
@@ -47,7 +50,30 @@ function handleFilter() {
 
 function resetFilter() {
   coursesList = res
+  coursesList.sort(function(a, b) {return a.id - b.id;})
 }
+
+$: sort = (column) => {
+		
+		if (sortBy.col == column) {
+			sortBy.ascending = !sortBy.ascending
+		} else {
+			sortBy.col = column
+			sortBy.ascending = true
+		}
+		
+		// Modifier to sorting function for ascending or descending
+		let sortModifier = (sortBy.ascending) ? 1 : -1;
+		
+		let sort = (a, b) => 
+			(a[column] < b[column]) 
+			? -1 * sortModifier 
+			: (a[column] > b[column]) 
+			? 1 * sortModifier 
+			: 0;
+		
+		coursesList = coursesList.sort(sort);
+	}
 </script>
 
 <header class="title">
@@ -92,12 +118,12 @@ function resetFilter() {
         <table class="nes-table is-bordered is-centered">
           <thead>
             <tr>
-              <th>ID</th>
+              <th on:click={sort("id")}>ID</th>
               <th>Universidad</th>
               <th>Grado</th>
               <th>Nombre</th>
-              <th>Precio</th>
-              <th>Moneda</th>
+              <th on:click={sort("price")}>Precio</th>
+              <th on:click={sort("moneda")}>Moneda</th>
             </tr>
           </thead>
           <tbody>
