@@ -66,9 +66,9 @@ $: sort = (column) => {
 		let sortModifier = (sortBy.ascending) ? 1 : -1;
 		
 		let sort = (a, b) => 
-			(parseFloat(a[column].replace(/NA/g,'0')) < parseFloat(b[column].replace(/NA/g,'0')))
+			(/[0-9]+/.test(a[column]) ? parseFloat(a[column].replace(/NA/g,'0')) < parseFloat(b[column].replace(/NA/g,'0')) : a[column] < b[column])
 			? -1 * sortModifier 
-			: (parseFloat(a[column].replace(/NA/g,'0')) > parseFloat(b[column].replace(/NA/g,'0')))
+			: (/[0-9]+/.test(a[column]) ? parseFloat(a[column].replace(/NA/g,'0')) > parseFloat(b[column].replace(/NA/g,'0')) : a[column] > b[column])
 			? 1 * sortModifier 
 			: 0;
 		
@@ -119,11 +119,11 @@ $: sort = (column) => {
           <thead>
             <tr>
               <th on:click={sort("id")}>ID</th>
-              <th>Universidad</th>
-              <th>Grado</th>
-              <th>Nombre</th>
+              <th on:click={sort("university")}>Universidad</th>
+              <th on:click={sort("grade")}>Grado</th>
+              <th on:click={sort("name")}>Nombre</th>
               <th on:click={sort("price")}>Precio</th>
-              <th>Moneda</th>
+              <th on:click={sort("moneda")}>Moneda</th>
             </tr>
           </thead>
           <tbody>
