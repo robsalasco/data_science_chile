@@ -67,9 +67,9 @@ $: sort = (column) => {
 		let sortModifier = (sortBy.ascending) ? 1 : -1;
 		
 		let sort = (a, b) => 
-			(/[0-9]+/.test(a[column]) ? parseFloat(a[column].replace(/NA/g,'0')) < parseFloat(b[column].replace(/NA/g,'0')) : a[column] < b[column])
+			(/[0-9]+/.test(a[column]) || /[0-9]+/.test(b[column]) ? parseFloat(a[column].replace(/NA/g,'0')) < parseFloat(b[column].replace(/NA/g,'0')) : a[column] < b[column])
 			? -1 * sortModifier 
-			: (/[0-9]+/.test(a[column]) ? parseFloat(a[column].replace(/NA/g,'0')) > parseFloat(b[column].replace(/NA/g,'0')) : a[column] > b[column])
+			: (/[0-9]+/.test(a[column]) || /[0-9]+/.test(b[column]) ? parseFloat(a[column].replace(/NA/g,'0')) > parseFloat(b[column].replace(/NA/g,'0')) : a[column] > b[column])
 			? 1 * sortModifier 
 			: 0;
 		
